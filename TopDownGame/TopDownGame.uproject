@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{61A7E075-45B9-B28D-2153-3F88B2465BAB}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TopDownGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#Unreal
+
+*/Saved
+*/Binaries
+*/Build
+StarterContent
+*.sdf
+CachedAssetRegistry.bin
+Build
+ReimportCache
+InfinityBladeAdversaries
+InfinityBladeEffects
+InfinityBladeGrassLands
+.DS_Store
+*.xcodeproj
+DerivedData
+
+Binaries
+Intermediate
+DerivedDataCache
+Saved
+*.sln
+.vs
