@@ -86,6 +86,16 @@ void ATopDownGamePlayerController::MoveToTouchLocation(const ETouchIndex::Type F
 
 void ATopDownGamePlayerController::SetNewMoveDestination(const FVector DestLocation)
 {
+	ServerSetNewMoveDestination(DestLocation);
+}
+
+bool ATopDownGamePlayerController::ServerSetNewMoveDestination_Validate(const FVector DestLocation)
+{
+	return true;
+}
+
+void ATopDownGamePlayerController::ServerSetNewMoveDestination_Implementation(const FVector DestLocation)
+{
 	APawn* const MyPawn = GetPawn();
 	if (MyPawn)
 	{

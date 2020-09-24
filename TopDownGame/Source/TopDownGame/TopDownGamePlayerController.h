@@ -35,6 +35,9 @@ protected:
 	/** Navigate player to the given world location. */
 	void SetNewMoveDestination(const FVector DestLocation);
 
+	UFUNCTION(Server,Reliable,WithValidation)
+	void ServerSetNewMoveDestination(const FVector Destination);
+
 	/** Input handlers for SetDestination action. */
 	void OnSetDestinationPressed();
 	void OnSetDestinationReleased();
